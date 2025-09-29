@@ -1,0 +1,10 @@
+@startuml BankAccount
+class BankAccount {
+    - balance: float
+    - name: str
+    __init__(balance: float, name: str)
+    + deposit(amount: float) throw Exception
+    + withdraw(amount: float)
+}
+
+@enduml
